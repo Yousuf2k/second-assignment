@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
     
+
+
+    
+    
    
 }
 
@@ -214,4 +218,283 @@ nav{
     background-color: rgb(230, 83, 60);
     margin-right: 14px;
 }
+
+
+.bg-color{
+
+    background-color:  #000000;
+    overflow: hidden;
+}
+
+.main-sec{
+
+    width: 80%;
+    margin: auto;
+}
+
+.habit-section{
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.habit-section-text{
+
+   text-align: center;
+}
+
+.habit-section-text h1{
+
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.habit-section-text p{
+
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.habit-section-images{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    /* justify-items: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    border: 2px solid red;
+    /* text-align: center; */
+}
+
+.image-container img{
+
+    border-radius: 50%;
+}
+
+.image-container h3{
+
+    color: white;
+    font-weight: 400;
+}
+
+.image-container p{
+
+    color: white;
+    font-weight: 200;
+}
+
+.run-extra-mile-section{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #222222;
+    padding: 40px;
+    border-radius: 18px;
+}
+
+.run-text{
+
+   padding-right: 200px;
+}
+
+
+.run-text h1{
+
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.run-text p{
+
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.run-btn{
+
+    padding: 16px 71px;
+
+    
+}
+
+.run-image {
+
+    background-image: url(./images/run.jpg);
+    background-size: 320%;
+    background-position: 70% 31%;
+    background-repeat: no-repeat;
+    height: 480px;
+    border-radius: 16px;
+    
+}
+
+.bmi-calculator-text{
+
+    margin: 100px 0px;
+}
+
+
+.bmi-calculator-text h1{
+
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    
+    text-align: center;
+}
+
+.bmi-calculator-text p{
+
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.bmi-calculator{
+
+    background-color: rgb(34, 34, 34);
+    
+}
+
+.bmi-calc{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.calc-chart{
+
+    margin-top: 52px;
+}
+
+.calc-chart h2{
+
+    color: white;
+    margin-bottom: 52px;
+}
+
+table, tr, td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+table{
+
+    width: 60%;
+    text-align: left;
+    
+}
+
+th{
+    color: white;
+}
+  
+tr{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------Responive laptop-1440px-------------------*/
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+
+    .glass{
+
+        top: 31%;
+    }
+    
+    .glass-2 {
+        
+        top: 67%;
+        left: 58%;
+    
+    }
+
+    .run-image {
+
+        /*    
+            width: 800px;
+            height: 100%; */
+        
+            background-image: url(./images/run.jpg);
+            background-size: 298%;
+            background-position: 73% 31%;
+            background-repeat: no-repeat;
+            height: 408px;
+        }
+    
+}
+
+
+
+
+/*--------------------------- Responive laptop-1024px------------------------- */
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .btn-primary {
+        
+        padding: 16px 32px;
+       
+        font-size: 16px;
+        
+    }
+
+    .btn-secondary {
+        
+        padding: 16px 32px;
+       
+        font-size: 16px;
+        
+    }
+
+    .glass {
+       
+        top: 34%;
+        left: 77%;
+    }
+    
+    .glass-2 {
+        
+        top: 68%;
+        left: 52%;
+    
+    }
+    
+}
+
 
