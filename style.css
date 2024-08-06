@@ -39,6 +39,8 @@ nav{
 .logo h1{
     font-size: 36px;
     color: rgb(230, 83, 60);
+    font-weight: 900;
+    font-style: italic;
 }
 
 .nav-bar ul{
@@ -143,7 +145,7 @@ nav{
     border-radius: 12px;
     padding: 20px 24px;
     position: absolute;
-    top: 26%;
+    top: 31%;
     left: 83%;
     background-color: rgb(255, 255, 255,0.15);
     backdrop-filter: blur(5px);
@@ -236,6 +238,7 @@ nav{
 
     margin-top: 100px;
     margin-bottom: 100px;
+    text-align: center;
     
 }
 
@@ -269,7 +272,7 @@ nav{
     /* justify-content: center; */
     /* align-items: center; */
 
-    border: 2px solid red;
+    
     /* text-align: center; */
 }
 
@@ -384,6 +387,7 @@ nav{
 
     color: white;
     margin-bottom: 52px;
+    font-size: 30px;
 }
 
 table, tr, td, th{
@@ -407,15 +411,164 @@ tr{
     color: rgba(255, 255, 255, 0.5);
 }
 
+.calc-bmi{
+
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+
+.calc-bmi h2{
+
+    color: white;
+   
+    font-size: 30px;
+}
+
+.calc-bmi p{
+
+    color: white;
+    font-size: 16px;
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+
+input, select{
+
+    outline: none;
+    border: none;
+    background-color: #393939;
+    color: white;
+    padding: 13px 20px;
+    margin-top: 12px;
+    margin-right: 6px;
+    border-radius: 8px;
+    
+}
+
+.input-width{
+
+    width: 48%;
+    
+}
+
+.select-activity{
+
+    width: 100%;
+    margin-bottom: 34px;
+}
 
 
+.meet-our-team{
+
+    margin-top: 88px;
+    margin-bottom: 88px;
+}
+
+.meet-our-team h1{
+
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+
+.meet-our-team p{
+
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
 
 
+.meet-our-team-img-sec{
 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 18px;
+}
+.meet-our-team-img{
 
+    position: relative;
+}
 
+.meet-our-team-img img{
 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 18px;
+}
 
+.meet-our-team-img h2{
+
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left: 10%;
+    font-weight: 900;
+    color: white;
+}
+
+.meet-our-team-img p{
+
+    position: absolute;
+    z-index: 1;
+    top: 88%;
+    left: 10%;
+}
+
+footer{
+
+    background-color: #222222;
+    overflow: hidden;
+}
+
+.footer{
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    /* justify-content: space-between; */
+    justify-items: flex-end;
+    margin-top: 70px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 4%;
+}
+
+.get-started h2{
+
+    color: white;
+    font-weight: 600;
+    
+}
+
+.logo-p{
+
+    color: white;
+    margin-top: 20px;
+}
+.get-started ul{
+
+    margin-top: 20px;
+}
+.get-started ul li{
+
+    list-style: none;
+    color: white;
+    line-height: 2;
+}
+
+.copyright p{
+
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: white;
+}
 
 
 /* ----------------Responive laptop-1440px-------------------*/
@@ -452,7 +605,7 @@ tr{
             background-position: 73% 31%;
             background-repeat: no-repeat;
             height: 408px;
-        }
+    }
     
 }
 
@@ -464,7 +617,13 @@ tr{
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
+
+    .body-text h1 {
+        
+        font-size: 60px;
+        padding-right: 0%;
+    }
 
     .btn-primary {
         
@@ -493,6 +652,35 @@ tr{
         top: 68%;
         left: 52%;
     
+
+    }
+
+    .run-image {
+
+        /*    
+            width: 800px;
+            height: 100%; */
+        
+            background-image: url(./images/run.jpg);
+            background-size: 298%;
+            background-position: 73% 31%;
+            background-repeat: no-repeat;
+            height: 287px;
+    }
+
+    .run-text {
+        padding-right: 20px;
+    }
+
+    .run-text p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .input-width {
+        width: 47%;
     }
     
 }
