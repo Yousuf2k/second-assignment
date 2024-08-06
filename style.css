@@ -105,6 +105,13 @@ nav{
     
 }
 
+span{
+
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+    font-style: normal;
+}
+
 .btn-primary{
 
     background-color: rgb(230, 83, 60);
@@ -274,6 +281,10 @@ nav{
 
     
     /* text-align: center; */
+}
+
+.habit-section p{
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .image-container img{
@@ -685,4 +696,237 @@ footer{
     
 }
 
+/*--------------------------- Responive Mobile-575px------------------------- */
 
+
+@media screen and (max-width: 575px) {
+
+    section {
+        width: 90%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+    .main-sec{
+
+        width: 90%;
+        margin: auto;
+    }
+    
+
+    .section-one {
+        display: grid;
+        /* align-items: center;
+        justify-items: self-end; */
+        grid-template-columns: 1fr;
+        gap: 40px;
+        margin-top: 34px;
+    }
+
+    .body-text h1 {
+        font-size: 36px;
+        padding-right: 0%;
+    }
+
+    .section-one {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 34px;
+        /* align-items: self-start; */
+        justify-items: center;
+    }
+
+    .glass-2 {
+        top: 83%;
+        left: 22%;
+    }
+
+    .glass {
+        top: 62%;
+        left: 53%;
+    }
+
+    .habit-section {
+        margin-top: 0px;
+        
+    }
+
+    .habit-section-text h1 {
+        
+        font-size: 38px;
+       
+    }
+
+    .habit-section-images {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        
+    }
+
+    .habit-section p{
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .run-extra-mile-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #222222;
+        padding: 30px;
+        border-radius: 18px;
+    }
+
+    .run-extra-mile-section .btn-primary {
+        padding: 16px 32px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .run-text {
+        padding-right: 0px;
+    }
+
+    .run-image {
+        background-image: url(./images/run.jpg);
+        background-size: cover;
+        background-position: 73% 31%;
+        background-repeat: no-repeat;
+        height: 230px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .bmi-calculator-text {
+        margin: 40px 0px;
+    }
+
+    .bmi-calc {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    table {
+        width: 100%;
+        text-align: left;
+    }
+
+    .meet-our-team{
+
+        margin-top: 60px;
+    }
+
+    .meet-our-team-img-sec {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 66px;
+        
+    }
+
+    .footer {
+        display: grid;
+        /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+        grid-template-columns: 1fr;
+        /* justify-content: space-between; */
+        justify-items:left;
+        margin-top: 70px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        padding-bottom: 4%;
+    }
+
+    .logo-p {
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .get-started{
+        margin-bottom: 30px;
+    }
+
+    .btn-secondary {
+        padding: 16px 30px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+    .btn-primary {
+        padding: 16px 30px;
+        font-size: 14px;
+    }
+
+    .glass {
+        border-radius: 12px;
+        padding: 14px 18px;
+        position: absolute;
+        top: 77%;
+        left: 54%;
+        background-color: rgb(255, 255, 255, 0.15);
+        backdrop-filter: blur(5px);
+        z-index: 2;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 2px 10px;
+        height: 84px;
+        width: 162px;
+    }
+
+    .glass p {
+        
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 12px;
+    }
+
+    .glass h1 {
+        color: white;
+        font-size: 26px;
+        font-weight: 900;
+    }
+
+    .glass-2 p {
+        
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 12px;
+    }
+
+    .glass-2 h1 {
+        color: white;
+        font-size: 26px;
+        font-weight: 900;
+    }
+
+    .glass-2 {
+        border-radius: 12px;
+        padding: 14px 18px;
+        position: absolute;
+        top: 102%;
+        left: 22%;
+        background-color: rgb(255, 255, 255, 0.15);
+        backdrop-filter: blur(5px);
+        z-index: 2;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 2px 10px;
+        display: flex;
+        align-items: center;
+        height: 84px;
+        width: 162px;
+    }
+
+    .bmi-calculator-text h1 {
+        color: white;
+        font-size: 38px;
+        font-weight: 900;
+        text-align: center;
+    }
+    
+    .bmi-calculator-text p {
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+    }
+
+
+}
