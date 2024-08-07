@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
 </head>
 <body>
     <header>
@@ -16,6 +18,10 @@
                 <div class="logo">
                     <h1>Fitness</h1>
                 </div>
+                <div class="bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                
                 <div class="nav-bar">
                     <ul>
                         <li class="active"><a href="">Home</a></li>
@@ -178,15 +184,19 @@
                     <p>
                         We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. 
                     </p>
-                    <input class="input-width" type="number" name="" id="" placeholder="Height/cm">
-                    <input class="input-width" type="number" name="" id="" placeholder="Weight/kg">
+                    <div class="incontainer">
+                        <input class="input-width" type="number" name="" id="" placeholder="Height/cm">
+                        <input class="input-width" type="number" name="" id="" placeholder="Weight/kg">
+                    </div>
                     <br>
-                    <input class="input-width" type="number" name="" id="" placeholder="Age">
-                    <select class="input-width" name="" id="">
-                        <option value="">Sex</option>
-                        <option value="">Male</option>
-                        <option value="">Female</option>
-                    </select>
+                    <div class="incontainer">
+                        <input class="input-width" type="number" name="" id="" placeholder="Age">
+                        <select class="input-width" name="" id="">
+                            <option value="">Sex</option>
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                        </select>
+                    </div>
                     <br>
                     <select name="" id="" class="select-activity">
                         <option value="">Select Activity factor</option>
