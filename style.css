@@ -605,6 +605,75 @@ footer{
     color: white;
 }
 
+.achieve-feats{
+
+    margin: 60px 0px;
+    
+}
+
+.achieve-feats h1{
+
+    font-size: 40px;
+}
+
+.amazing-cards{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.card{
+
+    padding: 60px 40px;
+    transition: 1s ease-in-out;
+   
+}
+
+.card h2{
+
+    color: white;
+    margin-top: 28px;
+}
+
+
+
+.icon{
+    color: white;
+    font-size: 50px;
+    
+}
+
+.card:hover{
+
+    background-color: rgb(230, 83, 60);
+    cursor: pointer;
+    border-radius: 18px;
+    transition: 1s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ----------------Responive laptop-1440px-------------------*/
 
@@ -958,6 +1027,14 @@ footer{
         color: rgba(255, 255, 255, 0.5);
         text-align: center;
     }
+
+    .amazing-cards{
+
+        display: flex;
+        justify-content: center;
+    }
+
+   
 
 
 }
